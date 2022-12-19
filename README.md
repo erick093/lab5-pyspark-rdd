@@ -27,7 +27,7 @@ Para descargar el dataset de este laboratorio, hacer correr el script ubicado en
 Para correr el script, es necesario especificar el directorio donde se quiere guardar el dataset. Por ejemplo, para descargar el dataset en el directorio `datasets`:
 
 ```bash
-python scripts/dataset_downloader.py ../datasets
+python scripts/dataset_downloader.py -o ../datasets
 ```
 
 

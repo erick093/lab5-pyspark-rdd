@@ -30,7 +30,7 @@ def download_file(url, bucket_name, output_file_name):
             if not data:
                 break
             out_file.write(data)
-            save_file_to_gcp(f"{tmpdir}/{output_file_name}", bucket_name)
+        save_file_to_gcp(f"{tmpdir}/{output_file_name}", bucket_name)
 
 
 def decompress_file(file_name, bucket_name, output_file_name):
